@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{10A4BFB2-275D-1DEE-D79E-72D1E2927264}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_0;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Resources\BannerRotator.cs" />
+     <Compile Include="Assets\Resources\fadeIn.cs" />
+     <Compile Include="Assets\Resources\video.cs" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-9\License.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\ubuntu-font-licence-1.0.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-7\License.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-3\License.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\LICENCE-FAQ.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\LICENCE.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-0\LicenseAgreement.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-6\License.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-0\pool3ds\License.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-5\License.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\copyright.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-4\License.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\README.txt" />
+     <None Include="Assets\Resources\ChangeMaterials.shader" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-8\License.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\TRADEMARKS.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\FONTLOG.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\CONTRIBUTING.txt" />
+     <None Include="Assets\Resources\Modelos3D\Objetos\modelo-2\License.txt" />
+ <Reference Include="Ventuz.OSC">
+ <HintPath>Assets\Ventuz.OSC.dll</HintPath>
+ </Reference>
+ <Reference Include="Accord.MachineLearning">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\Accord.MachineLearning.dll</HintPath>
+ </Reference>
+ <Reference Include="Accord.Math">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\Accord.Math.dll</HintPath>
+ </Reference>
+ <Reference Include="Accord.Statistics">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\Accord.Statistics.dll</HintPath>
+ </Reference>
+ <Reference Include="AccordKMeans">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\AccordKMeans.dll</HintPath>
+ </Reference>
+ <Reference Include="alglibnet2">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\alglibnet2.dll</HintPath>
+ </Reference>
+ <Reference Include="FRG">
+ <HintPath>Assets\Resources\Bibliotecas\FRG\FRG.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\Resources\Bibliotecas\OpenNI engine\OpenNI.Net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D45F492F-76A4-0329-005B-2F799E659A76}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{9042459C-E566-59FE-4D29-7020D0B6C071}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

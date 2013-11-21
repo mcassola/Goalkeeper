@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{F56EE516-6DBE-73E8-DCE7-86D36C2AECC0}") = "PrimeSense - Rope", "Assembly-CSharp.csproj", "{FA16719D-1FE0-014E-D0F4-9FBA678BDA39}"
+EndProject
+Project("{F56EE516-6DBE-73E8-DCE7-86D36C2AECC0}") = "PrimeSense - Rope", "Assembly-UnityScript-firstpass.unityproj", "{A6C774D6-A0C2-8797-F166-907AC42066CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA16719D-1FE0-014E-D0F4-9FBA678BDA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA16719D-1FE0-014E-D0F4-9FBA678BDA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA16719D-1FE0-014E-D0F4-9FBA678BDA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA16719D-1FE0-014E-D0F4-9FBA678BDA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C774D6-A0C2-8797-F166-907AC42066CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C774D6-A0C2-8797-F166-907AC42066CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C774D6-A0C2-8797-F166-907AC42066CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C774D6-A0C2-8797-F166-907AC42066CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

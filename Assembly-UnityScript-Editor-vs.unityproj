@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{8EBE38D7-D773-BE15-AA29-617C1F5FF97A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\LaserArc.js" />
+     <Compile Include="Assets\Editor\LaserWindow.js" />
+     <Compile Include="Assets\Editor\projectileArc.js" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\ubuntu-font-licence-1.0.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\LICENCE-FAQ.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\LICENCE.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\copyright.txt" />
+     <None Include="Assets\Models\NIKE GLOVES\GLOVES\IMPORTANTE ---- IMPORTANT.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\README.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\TRADEMARKS.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\FONTLOG.txt" />
+     <None Include="Assets\Fonts\ubuntu-font-family-0.71.2\CONTRIBUTING.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Accessibility">
+ <HintPath>Assets\Accessibility.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Tds">
+ <HintPath>Assets\Mono.Data.Tds.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Posix">
+ <HintPath>Assets\Mono.Posix.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Security">
+ <HintPath>Assets\Mono.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.WebBrowser">
+ <HintPath>Assets\Mono.WebBrowser.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>Assets\mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>Assets\System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>Assets\System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>Assets\System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.EnterpriseServices">
+ <HintPath>Assets\System.EnterpriseServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security">
+ <HintPath>Assets\System.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>Assets\System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>Assets\System.Windows.Forms.dll</HintPath>
+ </Reference>
+ <Reference Include="Ventuz.OSC">
+ <HintPath>Assets\Ventuz.OSC.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\NITE\OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="Policy.1.1.XnVNITE.Net">
+ <HintPath>Assets\NITE\Policy.1.1.XnVNITE.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="Policy.1.2.XnVNITE.Net">
+ <HintPath>Assets\NITE\Policy.1.2.XnVNITE.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="Policy.1.3.XnVNITE.Net">
+ <HintPath>Assets\NITE\Policy.1.3.XnVNITE.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="Policy.1.4.XnVNITE.Net">
+ <HintPath>Assets\NITE\Policy.1.4.XnVNITE.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="XnVNITE.net">
+ <HintPath>Assets\NITE\XnVNITE.net.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{CD2BB0F3-5C9F-DC87-7EB1-2BF56CAD2660}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{B80C5CA0-7396-2BF5-20ED-592B68C0D750}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
